@@ -1,0 +1,3 @@
+const date = new Date(); console.log(date); // Sun Aug 23 2020 10:46:38 GMT+0545 (+0545)
+const n = date.toDateString(); console.log(n); // Wed Aug 26 2020.
+const time = date.toLocaleTimeString(); console.log(time); // 1:13:12 PM.
